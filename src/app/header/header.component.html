@@ -1,0 +1,9 @@
+<div class="header">
+    <img src="https://angular.io/assets/images/logos/angular/shield-large.svg" alt="Left Logo" class="left-logo">
+    <ul>
+        @for (footballer of myService.footballers(); track footballer.name) {
+            <li (mousedown)="selectFootballer(footballer)">{{ footballer.name }}</li>
+        }
+    </ul>
+    <img src="https://angular.io/assets/images/logos/angular/shield-large.svg" alt="Right Logo" class="right-logo">
+</div>

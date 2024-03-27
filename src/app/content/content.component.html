@@ -1,0 +1,7 @@
+<div class="content">
+  <ng-container *ngIf="myService.selectedFootballer() as selectedFootballer">
+    <h2>{{ selectedFootballer.name }}</h2>
+    <p>Club: {{ selectedFootballer.club }}</p>
+  </ng-container>
+</div>
+ 

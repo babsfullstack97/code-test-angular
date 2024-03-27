@@ -1,0 +1,41 @@
+.header
+ display: flex
+ justify-content: space-between
+ align-items: center
+ position: fixed
+ top: 0
+ width: 100%
+ background-color: #f8f9fa
+ padding: 10px
+ z-index: 1000
+ img
+  width: 50px
+  max-width: 100%
+  height: auto
+ ul
+  display: flex
+  justify-content: center
+  width: 100%
+  flex-wrap: wrap
+ li
+  list-style: none
+  margin-right: 20px
+  cursor: pointer
+ .right-logo
+  display: block
+  margin-right: 30px
+  @media (max-width: 768px)
+   .header
+    display: block
+    padding: 5px
+   .right-logo
+    display: none
+   img
+    width: 30px
+   ul
+    display: block
+    justify-content: flex-start
+   li
+    display: block
+    margin-right: 0
+    margin-bottom: 10px
